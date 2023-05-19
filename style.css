@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(#101124 25%, #eb0e52 75%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.imagen_principal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #eb0e52;
+    text-align: center;
+}
+
+.menu{
+    margin: 0 auto;
+    padding: 35%;
+}
+
+.info{
+    font-style: normal;
+    color: #eb0e52;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
+    display: inline-block;
+}
+
+
+.boton-encriptar, .boton-desencriptar{
+    background: #eb0e52;
+    width: 45%;
+    height: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #101124;
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+    border-color: #101124;
+}
+
+.boton-encriptar:hover, .boton-desencriptar:hover{
+    background: #a30031;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.texto-encriptador{
+    width: 45%;
+    margin: auto 4px;
+    padding: 150px;
+}
+
+footer{
+	text-align: center;
+	background: url(imagenes/footer/footer.jpg);
+	padding: 40px;
+    color: #ffffff;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet"/>
+        <link rel="icon" type="image/x-icon" href="imagenes/icono/ico.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+
+    <header>
+        <img class="imagen_principal" src="imagenes/principal/ico.png">
+
+    </header>
+    <body>
+        <h1 class="titulo">Encriptador</h1>
+        <div class="menu">
+            <ul>
+                <il>
+                    <input type="submit" value="encriptar" class="boton-encriptar" name="encriptado">
+                    <input type="text" class="texto-encriptador">
+                </il>
+                <il>
+                    <input type="submit" value="desencriptar" class="boton-desencriptar">
+                    <input type="text" class="texto-encriptador">
+                </il>
+            </ul>
+            <p class="info">Para empezar a encriptar tienes que usar letras en minuscula y sin ningún caracter especial</p>
+        </div>
+
+
+
+
+    </body>
+
+    <footer>
+        <img src="imagenes/footer/footer.jpg">
+		<p class="copyright">&copy Copyright Cosra-bit - 2023</p>
+    </footer>
+
+    <script>
+        var encriptado = CryptoJS.AES.encrypt("mensaje");
+        var desencriptado = CryptoJS.AES.decrypt(encriptado, "mensaje secreto");
+
+        /* 
+        var cambiante = document.getElementById("Bienvenidos a mi Encriptador");
+        var keyframes = [
+            { opacity: 1},
+            { opacity: 0},
+        ];
+        var opciones = {
+            duration: 200,
+            iterations: Infinity,
+            direction: "alternate",
+        };
+        cambiante.animate(keyframes, opciones);
+        */
+
+
+
+    </script>
+</html>
