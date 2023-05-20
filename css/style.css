@@ -55,13 +55,18 @@ body{
 .texto-encriptador{
     width: 45%;
     margin: auto 4px;
-    padding: 150px;
+    padding: 40px;
 }
 
 footer{
-    background: black;
-	text-align: center;
-	background: url(imagenes/footer/footer.jpg);
+    text-align: center;
+    background: url(imagenes/footer/footer.jpg);
 	padding: 40px;
     color: #ffffff;
+}
+
+.copyright{
+	color: white;
+	font-size: 13px;
+	margin: 20px;
 }
