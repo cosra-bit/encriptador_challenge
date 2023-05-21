@@ -12,30 +12,37 @@
         <title>Encriptador</title>
     </head>
 
-    <header>
-        <img class="imagen_principal" src="imagenes/principal/ico.png">
-
-    </header>
     <script src="js/script.js"></script>
     <body>
-        <h1 class="titulo">Encriptador</h1>
-        <div class="menu">
-            <ul>
-                <il>
-                    <input type="submit" value="encriptar" class="boton-encriptar" name="encriptado">
-                    <input type="text" class="texto-encriptador">
-                </il>
-                <il>
-                    <input type="submit" value="desencriptar" class="boton-desencriptar">
-                    <input type="text" class="texto-encriptador">
-                </il>
-            </ul>
-            <p class="info">Para empezar a encriptar tienes que usar letras en minuscula y sin ningún caracter especial</p>
-        </div>
+        <header>
+            <img class="imagen_principal" src="imagenes/principal/ico.png">
+            <h1 class="titulo">Encriptador</h1>
+        </header>
+        <main>
+            <section class="parte-encriptador">
+                <div class="encriptador">
+                    <textarea placeholder="Ingresa el texto que deseas encriptar" class="texto-encriptador"></textarea>
+                </div>
+                <div class="mensaje-recordatorio">
+                    <p>Solo letras minusculas y sin ningun tipo de simbolo</p>
+                </div>
+                <div class="botones">
+                    <input type="button" class="boton-encriptar" value="Encriptador">
+                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="parte-resultado">
+                <div class="copia-texto">
+                    <input type="button" class="boton-copiar" value="Copiar">
+                </div>
+                <div class="resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+
+            </section>
 
 
-
-
+        </main>
     </body>
     </script>
     <footer>
@@ -43,3 +50,17 @@
         <p class="copyright">&copy Copyright Cosra-bit - 2023</p>
     </footer>
 </html>
+
+/*
+<ul>
+    <il>
+        <input type="submit" value="encriptar" class="boton-encriptar" name="encriptado">
+        <input type="text" class="texto-encriptador">
+    </il>
+    <il>
+        <input type="submit" value="desencriptar" class="boton-desencriptar">
+        <input type="text" class="texto-encriptador">
+    </il>
+</ul>
+<p class="info">Para empezar a encriptar tienes que usar letras en minuscula y sin ningún caracter especial</p>
+*/
