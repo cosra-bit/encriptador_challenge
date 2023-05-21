@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#101124 25%, #eb0e52 75%);
+    background: #101124;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -25,12 +25,20 @@ body{
     display: inline-block;
 }
 
+.texto-style{
+    color: #eb0e52;
+}
+
 .entradatexto, .salidatexto{
     font-style: normal;
-    color: #100307;
+    color: #eb0e52;
     text-align: center;
     font-weight: bolder;
     font-size: 15px;
+    padding: 15px;
+    width: 600px;
+    height: 40px;
+    margin: 1em;
 }
 
 .botonencriptar, .botondesencriptar{
@@ -40,22 +48,15 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: #101124;
-    padding: 8px;
+    padding: 12px;
     margin: 4px;
     border-color: #101124;
-    display: inline-block;
 }
 
 .botonencriptar:hover, .botondesencriptar:hover{
     background: #a30031;
     transition: 0.2s;
     transform: scale(1.1);
-}
-
-.texto-encriptador .texto-desencriptador{
-    width: 60%;
-    margin: auto 4px;
-    padding: 40px;
 }
 
 footer{
