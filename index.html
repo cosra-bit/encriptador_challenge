@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ES">
+
     <head>
         <meta charset="UTF-8">
         <link href="css/style.css" rel="stylesheet"/>
+        
         <link rel="icon" type="image/x-icon" href="imagenes/icono/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +16,7 @@
         <img class="imagen_principal" src="imagenes/principal/ico.png">
 
     </header>
+    <script src="js/script.js"></script>
     <body>
         <h1 class="titulo">Encriptador</h1>
         <div class="menu">
@@ -34,31 +37,9 @@
 
 
     </body>
-
+    </script>
     <footer>
         <img src="imagenes/footer/footer.jpg">
         <p class="copyright">&copy Copyright Cosra-bit - 2023</p>
     </footer>
-
-    <script>
-        var encriptado = CryptoJS.AES.encrypt("mensaje");
-        var desencriptado = CryptoJS.AES.decrypt(encriptado, "mensaje secreto");
-
-        /* 
-        var cambiante = document.getElementById("Bienvenidos a mi Encriptador");
-        var keyframes = [
-            { opacity: 1},
-            { opacity: 0},
-        ];
-        var opciones = {
-            duration: 200,
-            iterations: Infinity,
-            direction: "alternate",
-        };
-        cambiante.animate(keyframes, opciones);
-        */
-
-
-
-    </script>
 </html>
