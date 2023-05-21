@@ -4,15 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <link href="css/style.css" rel="stylesheet"/>
-        
         <link rel="icon" type="image/x-icon" href="imagenes/icono/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <title>Encriptador</title>
     </head>
-
-    <script src="js/script.js"></script>
     <body>
         <header>
             <img class="imagen_principal" src="imagenes/principal/ico.png">
@@ -20,33 +17,23 @@
         </header>
         <main>
             <section class="parte-encriptador">
-                <div class="encriptador">
-                    <textarea placeholder="Ingresa el texto que deseas encriptar" class="texto-encriptador"></textarea>
+                <div class="mensaje">
+                    <label for="input-texto">Solo letras minúsculas, sin acento</label>
+                    <input class="entradatexto" type="text" name="entradatexto" id="entradatexto" placeholder="Ingresa lo que quieres encriptar">
                 </div>
-                <div class="mensaje-recordatorio">
-                    <p>Solo letras minusculas y sin ningun tipo de simbolo</p>
+                <div class="parte-desencriptador">
+                    <label for="input-texto">Resultado</label>
+                    <input class="salidatexto" type="text" name="salidatexto" id="salidatexto" placeholder="Resultado">
                 </div>
                 <div class="botones">
-                    <input type="button" class="boton-encriptar" value="Encriptador">
-                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                    <input type="button" class="botonencriptar" value="Encriptador">
+                    <input type="button" class="botondesencriptar" value="Desencriptar">
                 </div>
             </section>
-            <section class="parte-resultado">
-                <div class="copia-texto">
-                    <input type="button" class="boton-copiar" value="Copiar">
-                </div>
-                <div class="resultado">
-                    <p class="texto-resultado"></p>
-                </div>
-
-            </section>
-
-
         </main>
     </body>
-    </script>
+    <script src="js/script.js"></script>
     <footer>
-        <img src="imagenes/footer/footer.jpg">
         <p class="copyright">&copy Copyright Cosra-bit - 2023</p>
     </footer>
 </html>

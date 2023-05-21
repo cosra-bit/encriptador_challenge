@@ -18,55 +18,54 @@ body{
     text-align: center;
 }
 
-.menu{
-    margin: 0 auto;
-    padding: 35%;
-}
-
-.info{
-    font-style: normal;
-    color: #eb0e52;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 23px;
+.parte-encriptador, .parte-desencriptador{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
     display: inline-block;
 }
 
+.entradatexto, .salidatexto{
+    font-style: normal;
+    color: #100307;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
 
-.boton-encriptar, .boton-desencriptar{
+.botonencriptar, .botondesencriptar{
     background: #eb0e52;
     width: 45%;
-    height: 30%;
+    height: 20%;
     font-size: 20px;
     font-weight: bold;
     color: #101124;
-    text-align: center;
     padding: 8px;
     margin: 4px;
     border-color: #101124;
+    display: inline-block;
 }
 
-.boton-encriptar:hover, .boton-desencriptar:hover{
+.botonencriptar:hover, .botondesencriptar:hover{
     background: #a30031;
     transition: 0.2s;
     transform: scale(1.1);
 }
 
-.texto-encriptador{
-    width: 45%;
+.texto-encriptador .texto-desencriptador{
+    width: 60%;
     margin: auto 4px;
     padding: 40px;
 }
 
 footer{
     text-align: center;
-    background: url(imagenes/footer/footer.jpg);
-	padding: 40px;
+	padding-top: 120px;
     color: #ffffff;
 }
 
 .copyright{
 	color: white;
-	font-size: 13px;
+	font-size: 12px;
 	margin: 20px;
 }
