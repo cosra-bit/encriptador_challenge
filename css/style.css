@@ -4,6 +4,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.logo{
+    padding: 2px 0 10px 0;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
 .imagen_principal{
     display: block;
     margin-left: auto;
