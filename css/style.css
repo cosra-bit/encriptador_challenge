@@ -49,7 +49,7 @@ body{
     margin: 1em;
 }
 
-.botonencriptar, .botondesencriptar{
+.botonencriptar, .botondesencriptar, .botoncopiar{
     background: #eb0e52;
     width: 45%;
     height: 20%;
@@ -61,7 +61,7 @@ body{
     border-color: #101124;
 }
 
-.botonencriptar:hover, .botondesencriptar:hover{
+.botonencriptar:hover, .botondesencriptar:hover, .botoncopiar:hover{
     background: #a30031;
     transition: 0.2s;
     transform: scale(1.1);

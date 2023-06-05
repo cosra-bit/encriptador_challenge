@@ -17,3 +17,9 @@ function desencriptar (){
 }
     
 var botondesencriptar = document.querySelector(".botondesencriptar"); botondesencriptar.onclick = desencriptar;
+
+/*
+function copiar(){
+    navigator.clipboard.writeText(salidatexto.value);
+}
+*/
